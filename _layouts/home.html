@@ -1,0 +1,27 @@
+---
+layout: default
+---
+<div class="hero">
+  <h1 class="post-title animate__animated animate__fadeIn animate__slower" style="animation-delay: .5s"><strong>Hi, I'm Jon.</strong><br/>I design and build apps.</h1>
+</div>
+<div class="home">
+  <ul class="experience-list">
+    {% assign i = 1 %}
+    {%- for exp in site.experiences -%}
+      {% assign i = i | plus:0.25 %}
+      <li class="experience-item animate__animated animate__fadeInUp"  style="animation-delay: {{i}}s">
+        <a class="post-link" href="{{ exp.url | relative_url }}">
+          <img class="experience-thumbnail" src="/assets/images/{{ exp.thumbnail }}"/>
+          <div class="experience-info">
+            <h3>
+              <a class="post-link" href="{{ exp.url | relative_url }}">
+                {{ exp.title | escape }}
+              </a>
+            </h3>
+            <span class="post-meta">{{ exp.duration }}</span>
+          </div>
+        </a>
+      </li>
+    {%- endfor -%}
+  </ul>
+</div>

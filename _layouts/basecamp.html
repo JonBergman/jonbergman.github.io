@@ -1,0 +1,100 @@
+---
+layout: default
+---
+<article class="page">
+
+  <header class="basecamp__intro">
+    <div class="row">
+      <div class="col">
+        <div class="animate__animated animate__fadeInLeft">
+          <h1>
+            Hi Basecamp, I’m Jon.<br/>
+            I <strong>design</strong> and <strong>build</strong> apps.<br/>
+            Are we a match?
+          </h1>
+          <p>
+            <strong>Bio</strong><br/>
+            <a href="https://soundcloud.com/jon-bergman">Music</a> is my jam.<br/>
+            Ryan Reynolds long lost twin.<br/>
+            Bio and foster dad to 3+ children on any given day.<br/>
+            I will never be too old to play Pokémon.<br/>
+            My wife is a superhero.
+          </p>
+        </div>
+      </div>
+      <div class="col">
+        <!-- BEM Example, let’s chat more about my experience with CSS frameworks -->
+        <div class="cinder animate__animated animate__fadeInRight" style="animation-delay: .25s">
+          <div class="cinder__logo">
+            <img src="../assets/images/Basecamp-Logo.png"/>
+          </div>
+          <div class="cinder__stack">
+            <div class="cinder__card animate__animated animate__faster" style="z-index: 4;">
+              <div class="cinder__overlay cinder__card--1">
+                <div class="cinder__bio">
+                  <span class="cinder__name">Jonathan Bergman, 31</span>
+                  <span class="cinder__location">New Hampshire</span>
+                </div>
+              </div>
+            </div>
+            <div class="cinder__card cinder__card--2 animate__animated animate__faster" style="z-index: 3">
+              <div class="cinder__overlay">
+                <div class="cinder__bio">
+                  <span class="cinder__name">Jonathan Bergman, 31</span>
+                  <span class="cinder__location">New Hampshire</span>
+                </div>
+              </div>
+            </div>
+            <div class="cinder__card cinder__card--3 animate__animated animate__faster" style="z-index: 2">
+              <div class="cinder__overlay">
+                <div class="cinder__bio">
+                  <span class="cinder__name">Jonathan Bergman, 31</span>
+                  <span class="cinder__location">New Hampshire</span>
+                </div>
+              </div>
+            </div>
+            <div class="cinder__card cinder__card--4 animate__animated animate__faster" style="z-index: 1">
+              <div class="cinder__overlay">
+                <div class="cinder__bio">
+                  <span class="cinder__name">Ryan Reynolds, 34</span>
+                  <span class="cinder__location">New York</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cinder__controls">
+            <button class="cinder__button cinder__button--pass" aria-label="Pass">
+              &times; 
+            </button>
+            <button class="cinder__button cinder__button--match" aria-label="Match">
+              ✓
+            </button>
+          </div>
+        </div>
+        <!-- END BEM Example -->
+      </div>
+    </div>
+  </header>
+
+  <div class="page-content animate__animated animate__fadeIn" style="animation-delay: 1s">
+    {{ content }}
+  </div>
+
+  <footer class="cinder__match hidden">
+    <button class="close" aria-label="Close window">
+      &times; 
+    </button>
+    <div class="cinder__match__inner">
+      <p class="cinder__match__heading">I'ts a Match!</p>
+      <p>You and Jonathan have liked each other!</p>
+      <div class="cinder__faces">
+        <div class="cinder__face"><img src="../assets/images/Basecamp-Logo.png"/></div>
+        <div class="cinder__face"><img src="../assets/images/avatar.png"/></div>
+      </div>
+      <p>Now you can send him a message to set up a phone call.</p>
+
+      <a class="button continue" href="mailto: jonmb08@gmail.com?subject=Hey, it's Basecamp">Continue</a>
+    </div>
+  </footer>
+
+</article>
