@@ -65,15 +65,6 @@
 .basecamp__intro {
   margin-bottom: $spacing-unit * 2;
 
-  @include media-query($on-palm) {
-    .row {
-      flex-wrap: wrap;
-    }
-    .col {
-      flex: 0 0 100%;
-    }
-  }
-
   .col {
     display: flex;
     align-items: center;
@@ -230,6 +221,7 @@
   background-color: rgba(0,0,0,.90);
   text-align: center;
   color: #fff;
+  padding: 1rem;
 
   .close {
     background: transparent;
@@ -272,5 +264,14 @@
   transform: rotate(2deg);
   &:hover {
     cursor: grabbing;
+  }
+}
+
+@include media-query($on-palm) {
+  .row {
+    flex-wrap: wrap;
+  }
+  .col {
+    flex: 0 0 100%;
   }
 }
