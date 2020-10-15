@@ -14,6 +14,6 @@ More specifically I use a Lean UX process to validate ideas. I translate those i
 
 ### Extra
 
-I live in New Hampshire with my beautiful wife and three children. We are also foster parents and deeply desire to help vulnerable children and their family heal and be restored.
+I live in New Hampshire with my beautiful wife and three children. We are also foster parents and deeply desire to help vulnerable children and their families heal and be restored.
 
 When I am not learning a [new skill](https://masterclass.com) or building things with my hands, [music](https://soundcloud.com/jon-bergman) is my primary creative outlet. I also enjoy the outdoors, travel, trading card games, reading books, video games, art, and sports.

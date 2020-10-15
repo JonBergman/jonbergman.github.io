@@ -4,6 +4,7 @@ title: Liberty Mutual
 duration: May 2011 - September 2013
 permalink: /experiences/libertymutual/
 thumbnail: Liberty-Logo.png
+order: 6
 ---
 
 * Developed web and mobile applications with HTML, CSS and JavaScript.

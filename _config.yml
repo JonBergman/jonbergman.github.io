@@ -42,6 +42,7 @@ collections:
   experiences:
     output: true
     permalink: /:collection/:name
+    sort_by: order
 
 # Exclude from processing.
 # The following items will not be processed, by default.

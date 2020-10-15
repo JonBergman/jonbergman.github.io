@@ -4,6 +4,7 @@ title: EKG DDX
 duration: Contract
 permalink: /experiences/ekgddx/
 thumbnail: EKGDDX-Logo.png
+order: 8
 ---
 
 [EKG DDX](https://apps.apple.com/us/app/ekg-ddx/id1483542588) is a [React Native](https://reactnative.dev/) app that identifies potential diagnostics using an algorithm developed by [Craig Hricz](https://www.wdhospital.org/wdh/providers/craig-r-hricz-pa-c). 

@@ -283,6 +283,7 @@ hr {
   border-radius: 4px;
   background-color: $brand-color;
   color: #fff;
+  -webkit-appearance: none;
 
   &:hover {
     color: #fff;

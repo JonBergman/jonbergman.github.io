@@ -197,6 +197,7 @@
   color: #fff;
   @include relative-font-size(1.25);
   cursor: pointer;
+  -webkit-appearance: none;
 
   &:hover {
     box-shadow: 

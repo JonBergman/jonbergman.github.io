@@ -221,13 +221,15 @@
 /**
  * Posts
  */
-.post-header {
+.post-header,
+.page-header {
   margin-bottom: $spacing-unit;
   text-align: center;
   padding: $spacing-unit * 2 0;
 }
 
-.post-title {
+.post-title,
+.page-title {
   @include relative-font-size(2.625);
   font-weight: 600;
   letter-spacing: -1px;
