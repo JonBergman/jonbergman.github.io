@@ -32,6 +32,8 @@ theme: minima
 plugins:
   - jekyll-feed
 
+google_analytics: UA-32405191-1
+
 defaults:
   - scope:
       path: "assets/images"
