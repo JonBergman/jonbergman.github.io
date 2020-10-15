@@ -13,7 +13,7 @@ Their process requires collecting a large amount of data via in-person recorded 
 
 This process was all done on paper. The audio was transcribed using powerpoint and printed on paper for sorting. There was not a great way to share, store, or search the data.
 
-I was hired to create an online application that would allow Storyline to perform their whole process online. This was going to be a tough challenge but I was up to it.
+I was hired to create an online application that would allow Storyline to perform their whole process online.
 
 ![Project home](/assets/images/experiences/storyline/home.png)
 

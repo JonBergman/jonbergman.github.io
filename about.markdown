@@ -10,7 +10,7 @@ I’m Jon, a designer that can bring beautiful ideas to life with code. My guilt
 
 I help organizations large and small build engaging products through design-driven product development, UX design, and full-stack software engineering.
 
-More specifically I use a Lean UX process to validate ideas. I translate those ideas into wireframes and prototypes to gather user data in order to make informed decisions. Then I use my experience in software engineering to build scalable and maintainable design pattern libraries with code. 
+More specifically I use a [Lean UX](https://www.interaction-design.org/literature/article/a-simple-introduction-to-lean-ux) process to validate ideas. I translate those ideas into wireframes and prototypes to gather user data in order to make informed decisions. Then I use my experience in software engineering to build scalable and maintainable design pattern libraries with code. 
 
 ### Extra
 

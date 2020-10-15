@@ -9,7 +9,7 @@ order: 3
 
 I joined [Cengage](https://cengage.com) as a Senior Product Designer in November of 2015. The team I was joining was building a competency based (CBE) platform for higher education institutions.
 
-My responsibility as Product Designer was to provide designs and front-end code developers building the CBE platform and our curriculum authoring tool.
+My responsibility as Product Designer was to provide designs and develop front-end code for the CBE platform and our curriculum authoring tool.
 
 The work I was most proud of at Learning Objects was testing, building, and pitching the idea of a centralized design system that developers could consume across all projects.
 

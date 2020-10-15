@@ -11,9 +11,9 @@ I joined [FlatWorld](https://flatworld.com) in January of 2017 as a Senior Softw
 
 Engineers at FlatWorld build and maintain many different platforms, products, and services. Most applications have unique tech stacks, so there is always something new to learn.
 
-Since joining I have been able to audit and fix many accessibility issues in our applications. I also helped write our company VPAT.
+One of my primary responsibilities is to audit and fix accessibility issues. I also write our company VPAT.
 
-I also have opportunities to pitch user experience improvements. Here are some of the designs I personally worked on.
+In addition to engineering I often pitch user experience improvements. Here are some of the designs I personally worked on.
 
 ![Catalog](/assets/images/experiences/flatworld/catalog.png)
 

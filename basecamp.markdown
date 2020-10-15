@@ -3,13 +3,13 @@ layout: basecamp
 permalink: /basecamp/
 ---
 
-I’m Jon, a multi-disciplined creative that is passionate about building an inclusive web. Working at Basecamp would be a dream come true! I am putting everything on the table for this application, I just know we were meant for each other.
+I’m Jon, a multi-disciplined creative that is passionate about building an inclusive web. Working at Basecamp would be a dream come true! I am putting everything on the table for this application, I just know we’re meant for each other.
 
 ## Why love me?
 
 <image src="/assets/images/but-why.gif" alt="But Why?" class="right"/>
 
-_I can do it all_. I have intentionally focused on learning to become a technology generalist because I find delight in all aspects of the product development process. I take pride in using [both sides of my brain](https://www.healthline.com/health/left-brain-vs-right-brain#left-brainright-brain-theory), often wearing many different hats. I love solving complex business problems like the ROI of design. More specifically, I enjoy applying a [Lean UX](https://www.interaction-design.org/literature/article/a-simple-introduction-to-lean-ux) process to ideate, test, and validate ideas. Then, I use my knowledge of software engineering to build [accessible](https://www.w3.org/TR/WCAG21/), scalable, and beautiful user interfaces with code.
+_I can do it all_. I have intentionally focused on becoming a generalist because I find delight in all aspects of the product development process. I take pride in using [both sides of my brain](https://www.healthline.com/health/left-brain-vs-right-brain#left-brainright-brain-theory), often wearing many different hats. I love solving complex business problems like the ROI of design. More specifically, I enjoy applying a [Lean UX](https://www.interaction-design.org/literature/article/a-simple-introduction-to-lean-ux) process to ideate, test, and validate ideas. Then, I use my knowledge of software engineering to build [accessible](https://www.w3.org/TR/WCAG21/), scalable, and beautiful user interfaces with code.
 
 _I am self-motivated_. I ask hard questions, and with determination, find the answers. If I make a mistake-I own it, fix it, and grow from it. I am someone who can succeed individually but soar with a team. We may need to break some bad habits, but that is OK! Just ask my wife...she still loves me after 13 years, you will too.
 
