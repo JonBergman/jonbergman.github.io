@@ -7,9 +7,9 @@ thumbnail: CIT-Logo.png
 order: 5
 ---
 
-I joined [CIT](https://cit.com) (Direct Capital at the time) as a Web Developer in September of 2013. Direct Capital provided financing to small business for equipment purchases.
+I joined [CIT](https://cit.com) (Direct Capital at the time) as a Web Developer in September of 2013. Direct Capital provided financing to small businesses for equipment purchases.
 
-Our scrappy engineering team was responsible for all of the organizations web technology.
+Our engineering team was responsible for all of the organization's web technology.
 
 My first project was to redesign their legacy user portal to match their existing style guide. This required a complete rewrite of the project CSS.
 
