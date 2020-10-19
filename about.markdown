@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-I’m Jon, a designer that can bring beautiful ideas to life with code. My guilty pleasure is deleting code. I am inspired by my faith and family to be the best man I can be and do exceptional work.
+I’m Jon, a designer that can bring beautiful ideas to life with code. Nice to meet you!
 
 ### What I do
 
