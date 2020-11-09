@@ -1,6 +1,7 @@
 ---
 layout: page
 permalink: /resume/
+title: Resumé
 ---
 
 ## Senior Software Engineer
