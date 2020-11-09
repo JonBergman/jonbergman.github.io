@@ -62,6 +62,16 @@
  * Cover letter
  */
 
+ .cover__bg {
+  position: absolute;
+  display: block;
+  content: '';
+  height: 100vh;
+  width: 100%;
+  background-color: #f3f4f8;
+  z-index: -1;
+ }
+
 
 .cover__intro {
   margin-bottom: $spacing-unit * 2;
