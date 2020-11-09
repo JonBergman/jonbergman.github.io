@@ -63,6 +63,22 @@ main {
 /**
  * Images
  */
+
+figure {
+  position: relative;
+}
+
+figcaption {
+  position: absolute;
+  top: 0;
+  right: -100px;
+  font-size: 12px;
+  font-family: georgia, seif;
+  color: $grey-color;
+  font-style: italic;
+  width: 80px;
+
+}
 img {
   max-width: 100%;
   vertical-align: middle;
@@ -75,10 +91,6 @@ img {
  */
 figure > img {
   display: block;
-}
-
-figcaption {
-  font-size: $small-font-size;
 }
 
 

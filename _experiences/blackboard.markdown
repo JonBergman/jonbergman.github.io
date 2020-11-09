@@ -1,7 +1,6 @@
 ---
 layout: experience
 title: Blackboard
-duration: Febuary 2015 - November 2015
 permalink: /experiences/blackboard/
 thumbnail: Blackboard-Logo.png
 order: 4

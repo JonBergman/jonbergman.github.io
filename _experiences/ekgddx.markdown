@@ -7,7 +7,7 @@ thumbnail: EKGDDX-Logo.png
 order: 8
 ---
 
-[EKG DDX](https://apps.apple.com/us/app/ekg-ddx/id1483542588) is a [React Native](https://reactnative.dev/) app that identifies potential diagnostics using an algorithm developed by [Craig Hricz](https://www.wdhospital.org/wdh/providers/craig-r-hricz-pa-c). 
+[EKG DDX](https://apps.apple.com/us/app/ekg-ddx/id1483542588) is a [React Native](https://reactnative.dev/) app that identifies potential EKG diagnostics using an algorithm developed by [Craig Hricz](https://www.wdhospital.org/wdh/providers/craig-r-hricz-pa-c). 
 
 Craig needed someone who could help him build the app and publish it to iOS and Android app stores. In order to acheive this we made the app with [Expo](https://expo.io/), which is by far the fastest way to build an app using JavaScript. Here is what Craig had to say about the project:
 

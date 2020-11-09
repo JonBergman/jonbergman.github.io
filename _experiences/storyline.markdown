@@ -1,7 +1,6 @@
 ---
 layout: experience
 title: Storyline
-duration: Contract
 permalink: /experiences/storyline/
 thumbnail: Storyline-Logo.png
 order: 2
@@ -13,7 +12,7 @@ Their process requires collecting a large amount of data via in-person recorded 
 
 All data collection was still being done on paper! The audio was transcribed using powerpoint and printed on paper for sorting. This was not a sustainable way to share, store, or search the data.
 
-I was hired to create an online application that would allow Storyline to perform their whole process online.
+I was hired to create an online application that would allow Storyline to perform their whole process online. This included building a user driven platform where people could view and create new data, sort and document insights, and print data-driven quotes using templates created for each project.
 
 
 ![Project home](/assets/images/experiences/storyline/home.png)
