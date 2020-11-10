@@ -11,7 +11,7 @@ _I can solve complex business problems_. I have many years of [relevant experien
 
 _I am a team player_. I ask hard questions, and with determination, find the answers. If I make a mistake-I own it, fix it, and grow from it. I am someone who can succeed individually but soar with a team. We may need to break some bad habits, but that is OK! I strive to be honest and work with integrity because the best teams are built on trust and respect.
 
-_I want to make an impact_.  I understand that to be successful, learning never stops, and I still have a lot to learn! I want to come to the table with humility, humor, and energy to learn from the best and do my life’s best work with BetterUp.
+_I want to make an impact_.  I understand that to be successful, learning never stops, and I still have a lot to learn! I want to come to the table with humility, humor, and energy to learn from the best and do my life’s best work with Kiva.
 
 ----
 
