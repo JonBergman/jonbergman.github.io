@@ -21,7 +21,7 @@ _I want to learn from the best_.  I understand that to be successful, learning n
 
 You build products that people like myself love to use. You are obsessed with design. You sweat the details. You take good care of your people. Only the best of the best work for you because you push boundaries and challenge the status quo.
 
-I guess you could say I have had a crush on you for years. 😍 Your philosophy for building software and love for design is what fueled my passion for creating digital products. I have used Stripe for many personal and professional projects because I was blown away by how easy Stripe made it to accept payments. I know I can learn a lot at Stipe and do my best work. I want to unlock my full potential and learn from the best.
+I guess you could say I have had a crush on you for years. 😍 Your philosophy for building software and love for design is what fueled my passion for creating digital products. I have used Stripe for many personal and professional projects because I was blown away by how easy Stripe made it to accept payments. I know I can learn a lot at Stripe and do my best work. I want to unlock my full potential and learn from the best.
 
 ----
 
