@@ -2,35 +2,46 @@
  * Site header
  */
 .site-header {
-  // border-top: 5px solid $grey-color-dark;
-  // border-bottom: 1px solid $grey-color-light;
-  // min-height: $spacing-unit * 1.865;
-  padding: $spacing-unit 0;
-  // Positioning context for the mobile navigation icon
   position: relative;
+  display: flex;
+  align-items: center;
+  height: 120px;
+  margin-bottom: 2rem;
+
+  @include media-query($on-palm) {
+    justify-content: center;
+    flex-direction: column;
+    height: 160px;
+    margin: 1rem;
+  }
 }
 
 .site-title {
-  // @include relative-font-size(1.625);
-  font-weight: 600;
-  line-height: $base-line-height * $base-font-size * 2.25;
-  // letter-spacing: -1px;
-  margin-bottom: 0;
-  float: left;
-
-  &,
-  &:visited {
-    color: $grey-color-dark;
+  font-weight: bold;
+  color: $text-color;
+  text-transform: uppercase;
+  text-decoration: none;
+  
+  @include media-query($on-palm) {
+    margin-bottom: 1rem;
   }
 
   img {
     height: 80px;
   }
+
+  &:hover {
+    text-decoration: none;
+    color: $grey-color-dark;
+  }
 }
 
 .site-nav {
-  float: right;
-  line-height: $base-line-height * $base-font-size * 2.25;
+  margin-left: auto;
+  
+  @include media-query($on-palm) {
+    margin-left: 0;
+  }
 
   .nav-trigger {
       display: none;
@@ -41,63 +52,20 @@
   }
 
   .page-link {
-    color: $text-color;
-    line-height: 80px;
-
-    // Gaps between nav items, but not on the last one
-    &:not(:last-child) {
-      margin-right: $spacing-unit * 2;
-    }
-  }
-
-  @include media-query($on-palm) {
     position: relative;
-    top: 9px;
-    right: $spacing-unit / 2;
-    border-radius: 5px;
-    text-align: right;
+    display: block;
+    float: left;
+    color: $grey-color;
+    margin-left: 1rem;
+    padding: 1rem;
+    text-decoration: none;
 
-    label[for="nav-trigger"] {
-      display: block;
-      float: right;
-      width: 36px;
-      height: 36px;
-      z-index: 2;
-      cursor: pointer;
+    &:first-child {
+      margin: 0;
     }
 
-    .menu-icon {
-      display: block;
-      float: right;
-      width: 36px;
-      height: 26px;
-      line-height: 0;
-      padding-top: 10px;
-      text-align: center;
-
-      > svg {
-        fill: $grey-color-dark;
-      }
-    }
-
-    input ~ .trigger {
-      clear: both;
-      display: none;
-    }
-
-    input:checked ~ .trigger {
-      display: block;
-      padding-bottom: 5px;
-    }
-
-    .page-link {
-      display: block;
-      padding: 5px 10px;
-
-      &:not(:last-child) {
-        margin-right: 0;
-      }
-      margin-left: 20px;
+    &:hover {
+      color: $brand-color;
     }
   }
 }
@@ -107,8 +75,9 @@
  * Site footer
  */
 .site-footer {
-  color: $grey-color;
-  padding: $spacing-unit * 2 0;
+  background-color:#861F41;
+  color: $brand-color;
+  padding: $spacing-unit * 4 0;
   margin-top: $spacing-unit * 2;
   text-align: center;
 }
@@ -173,23 +142,41 @@
   }
 }
 
+/**
+ * Home 
+ */
+.home-header {
+  display: flex;
+  align-items: center;
+  height: 400px;
+
+  @include media-query($on-laptop) {
+    height: 300px;
+  }
+
+  @include media-query($on-palm) {
+    height: 200px;
+  }
+}
+
+.home-heading {
+  @include relative-font-size(2);
+  font-weight: normal;
+  margin: 0;
+
+  @include media-query($on-laptop) {
+    @include relative-font-size(1.75)
+  }
+
+  @include media-query($on-palm) {
+    @include relative-font-size(1.5)
+  }
+}
 
 
 /**
  * Page content
  */
-.page-heading {
-  @include relative-font-size(2.625);
-  font-weight: 600;
-  letter-spacing: -1px;
-  text-align: center;
-  margin-bottom: $spacing-unit;
-  padding: $spacing-unit * 2 0;
-
-  @include media-query($on-laptop) {
-    @include relative-font-size(2.25);
-  }
-}
 
 .post-list-heading {
   @include relative-font-size(1.75);
@@ -211,7 +198,6 @@
 
 .post-link {
   display: block;
-  @include relative-font-size(1.5);
 }
 
 
@@ -219,13 +205,11 @@
 /**
  * Posts
  */
-.post-header,
-.page-header {
-  margin-bottom: $spacing-unit;
-  text-align: center;
-  padding: $spacing-unit * 2 0;
+.page,
+.post {
+  max-width: 700px;
+  margin: 0 auto;
 }
-
 .post-title,
 .page-title {
   @include relative-font-size(2.625);
@@ -240,8 +224,14 @@
 .post-content,
 .page-content {
   margin-bottom: $spacing-unit;
-  max-width: $spacing-unit * 26;
-  margin: 0 auto;
+
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 3rem 0 1rem;
+  }
 
   h2 {
     @include relative-font-size(2);

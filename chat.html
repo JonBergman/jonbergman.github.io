@@ -1,0 +1,19 @@
+---
+layout: default
+title: Chat
+permalink: /chat/
+---
+
+<div id="chat"></div>
+
+<script src="https://rtcw-app.web.app/script.js" type='text/javascript'></script>
+<script>
+  const config = {
+    clientId: "c3BosD7gJodo6aKrvE1vSPpvPrG2",
+    chatsId: "website",
+    user: null
+  };
+
+  const chat = document.getElementById("chat");
+  chat.attachWidget(config);
+</script>

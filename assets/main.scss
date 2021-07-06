@@ -4,58 +4,46 @@
 
 @import "minima";
 
-/**
- * Hero
- */
-.hero {
-  padding: $spacing-unit * 2 0;
-
-  .post-title {
-    font-weight: 300;
-  }
-}
-
 .experience-list {
   list-style: none;
-  margin-right: -20px;
-  margin-left: -20px;
-  padding: 0;
-  display: flex;
-  flex-flow: wrap;
+  margin: 0;
+}
+
+.experience-item {
+  margin-bottom: 2rem;
+}
+
+.experience-link {
+  display: block;
+  color: inherit;
+  text-decoration: none;
   
-  li {
-    flex: 0 0 25%;
-    padding: 20px;
+  &:hover {
 
-    @include media-query($on-laptop) {
-      flex: 0 0 33.33%;
+    .experience-thumbnail {
+      transform: scale(0.95);
     }
-
-    @include media-query($on-palm) {
-      flex: 0 0 50%;
-    }
-
   }
 }
 
 .experience-thumbnail {
   width: 100%;
+  transition: all 500ms ease-in-out;
 }
 
 .experience-info {
-  display: none;
+  margin-top: 2rem;
+  h2 {
+    margin: 0;
+    font-size: 24px;
+    color: $text-color;
+    font-weight: normal;
+  }
 }
 
-.row {
-  display: flex;
-  margin-left: -20px;
-  margin-right: -20px;
-}
-
-.col {
-  padding: 20px;
-  flex-grow: 1;
-  flex-basis: 0;
+.experience-categories {
+  color: $grey-color;
+  font-size: $base-font-size;
 }
 
 /**
@@ -318,14 +306,5 @@
   transform: rotate(2deg);
   &:hover {
     cursor: grabbing;
-  }
-}
-
-@include media-query($on-palm) {
-  .row {
-    flex-wrap: wrap;
-  }
-  .col {
-    flex: 0 0 100%;
   }
 }

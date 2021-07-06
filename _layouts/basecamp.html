@@ -98,3 +98,45 @@ layout: default
   </footer>
 
 </article>
+
+<script>
+  $(document).ready(function() {
+    let cards = $('.cinder__card');
+    let i = 0;
+
+    $(".cinder__card").draggable({
+      axis: "x",
+      start: function(event, ui) {
+        start = ui.position.left;
+      },
+      stop: function(event, ui) {
+        stop = ui.position.left;
+        let direction = (start < stop) ? 'fadeOutRight':'fadeOutLeft';
+        cycle(direction);
+      }
+    });
+
+    $('.cinder__button--match').on('click', function() {
+      cycle('fadeOutRight');
+    });
+
+    $('.cinder__button--pass').on('click', function() {
+      cycle('fadeOutLeft');
+    });
+
+
+    $('.close, .continue').on('click', function() {
+      $('.cinder__match').toggleClass('hidden');
+    });
+
+    function cycle(cssClass) {
+      const cur = cards[i];
+      $(cur).addClass('animate__' + cssClass);
+      i++;
+      if (cssClass == "fadeOutRight") {
+        $('.cinder__match').toggleClass('hidden');
+      }
+    }
+  })  
+    
+</script>
