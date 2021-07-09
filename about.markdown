@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Hello! My Jo~~h~~n, I am a <strong>product designer</strong> and <strong>technologist</strong> from New Hampshire. I have over 10 years of experience designing and building elegant and accessible products for the web. Nice to meet you!
+Hello! My name is Jon, I am a <strong>product designer</strong> and <strong>technologist</strong> from New Hampshire. I have over 10 years of experience designing and building elegant and accessible products for the web. Nice to meet you!
 
 {% include image.html url="/assets/images/family.jpg" description="My family (minus one child). Updated picture coming soon!." %}
 
