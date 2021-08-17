@@ -11,7 +11,7 @@ layout: default
     {%- for exp in site.portfolio -%}
       <li class="experience-item col">
         <a class="experience-link" href="{{ exp.url | relative_url }}">
-          <img class="experience-thumbnail" src="/assets/images/{{ exp.thumbnail }}"/>
+          <img class="experience-thumbnail" src="/assets/images/{{ exp.thumbnail }}" alt="Device screens with a {{exp.title}} user interface"/>
           <div class="experience-info">
             <h2>{{ exp.title | escape }}</h2>
             <div class="experience-categories">
