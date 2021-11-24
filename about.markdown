@@ -6,7 +6,7 @@ permalink: /about/
 
 Hello! My name is Jon, I am a <strong>product designer</strong> and <strong>technologist</strong> from New Hampshire. I have over 10 years of experience designing and building elegant and accessible products for the web. Nice to meet you!
 
-{% include image.html url="/assets/images/family_photo.jpg" description="My family (minus one child). Updated picture coming soon!." %}
+{% include image.html url="/assets/images/family_photo.jpg" alt="My beautiful family." %}
 
 
 When I am not learning a new skill or building things with my hands, [music](https://soundcloud.com/jon-bergman) is my primary creative outlet. I also enjoy the outdoors, travel, trading card games, reading books, video games, art, and sports. We are also a foster family and deeply desire to see the next generation and their families be restored.
