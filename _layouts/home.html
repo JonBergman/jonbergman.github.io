@@ -1,28 +1,33 @@
----
-layout: default
----
-<article class="home">
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-  <header class="home-header">
-    <h1 class="home-heading">Hi, I’m Jon. I design and build human-centered and accessible applications.</h1>
-  </header>
+  {%- include head.html -%}
 
-  <ul class="experience-list row">
-    {%- for exp in site.portfolio -%}
-      <li class="experience-item col">
-        <a class="experience-link" href="{{ exp.url | relative_url }}">
-          <img class="experience-thumbnail" src="/assets/images/{{ exp.thumbnail }}" alt="Device screens with a {{exp.title}} user interface"/>
-          <div class="experience-info">
-            <h2>{{ exp.title | escape }}</h2>
-            <div class="experience-categories">
-              {% for category in exp.categories %}
-                <span class="cat">{{category}}</span>{% unless forloop.last %}, {% endunless %}
-              {% endfor %}
-            </div>
-          </div>
-        </a>
-      </li>
-    {%- endfor -%}
-  </ul>
-
-</article>
+  <body class="home">
+    {%- include header.html -%}
+    <div class="wrapper">
+      <div class="home-banner">
+      
+        <!-- <img src="/assets/images/Mark.svg" height="80px" class="mark"/> -->
+        <h1 class="brand">Hi, I’m Jon. I design and build human-centered and accessible applications.</h1>
+      </div>
+      <ul class="experience-list">
+        {% assign sorted = site.portfolio | sort: 'year' | reverse  %}
+        {%- for exp in sorted -%}
+          <li class="experience-item">
+            <a class="experience-link" href="{{ exp.url | relative_url }}">
+              <div class="experience-info">
+                <h2 class="experience-title">{{ exp.title | escape }}</h2>
+                <div class="experience-excerpt">
+                  {{ exp.excerpt}}
+                </div>
+              </div>
+              <figure><img src="/assets/images/{{ exp.thumbnail }}"/></figure>
+            </a>
+          </li>
+        {%- endfor -%}
+      </ul>
+    </div>
+    {%- include footer.html -%}
+  </body>
+</html>

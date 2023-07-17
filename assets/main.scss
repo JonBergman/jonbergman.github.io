@@ -4,48 +4,6 @@
 
 @import "minima";
 
-.experience-list {
-  list-style: none;
-  margin: 0;
-}
-
-.experience-item {
-  margin-bottom: 2rem;
-}
-
-.experience-link {
-  display: block;
-  color: inherit;
-  text-decoration: none;
-  
-  &:hover {
-
-    .experience-thumbnail {
-      transform: scale(0.95);
-    }
-  }
-}
-
-.experience-thumbnail {
-  width: 100%;
-  transition: all 500ms ease-in-out;
-}
-
-.experience-info {
-  margin-top: 2rem;
-  h2 {
-    margin: 0;
-    font-size: 24px;
-    color: $text-color;
-    font-weight: normal;
-  }
-}
-
-.experience-categories {
-  color: $grey-color;
-  font-size: $base-font-size;
-}
-
 /**
  * Cover letter
  */

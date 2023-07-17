@@ -1,17 +1,10 @@
 <header class="site-header" role="banner">
-  {%- assign default_paths = site.pages | map: "path" -%}
-  {%- assign page_paths = site.header_pages | default: default_paths -%}
-  <a class="site-title" rel="author" href="{{ "/" | relative_url}}">
-    {{ site.title }}
-  </a>
-
-  {%- if page_paths -%}
+  <div class="wrapper">
     <nav class="site-nav">
-      <a class="page-link" href="/">Work</a>
+      <a class="page-link" href="/">Home</a>
       <a class="page-link" href="/about">About</a>
-      <a class="page-link" href="mailto:{{ site.email }}?subject=Hello!">Contact</a>
+      <a class="page-link" href="/process">Process</a>
+      <a class="page-link" href="mailto:jonmb08@gmail.com?Subject=Hello">Contact</a>
     </nav>
-  {%- endif -%}
-
-
+  </div>
 </header>
