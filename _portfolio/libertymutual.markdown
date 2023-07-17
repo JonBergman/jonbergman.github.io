@@ -4,7 +4,7 @@ title: Liberty Mutual
 permalink: /portfolio/libertymutual/
 thumbnail: Liberty-Thumbnail.png
 categories: [Engineering]
-year: 2011-2013
+year: 2011
 excerpt: "Mobile application for one of the world's largest insurance companies."
 ---
 

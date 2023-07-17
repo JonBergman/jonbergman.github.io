@@ -4,7 +4,7 @@ title: Sales Impact Academy
 permalink: /portfolio/sia/
 thumbnail: SIA-Thumbnail.png
 categories: [Design, Engineering]
-year: 2022-2023
+year: 2022
 excerpt: "Designing the first skills development platform for sales professionals."
 ---
 

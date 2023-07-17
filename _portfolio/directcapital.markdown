@@ -4,7 +4,7 @@ title: Direct Capital
 permalink: /portfolio/direct-capital/
 thumbnail: DirectCapital-Thumbnail.png
 categories: [Developer, Designer]
-year: 2013—2015
+year: 2013
 excerpt: "Building a platform for small business financing"
 ---
 

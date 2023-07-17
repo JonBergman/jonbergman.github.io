@@ -4,7 +4,6 @@
 
 layout: page
 title: About
-order: 2
 ---
 
 <figure><img src="/assets/images/family_photo.jpg" alt="My family"/></figure>

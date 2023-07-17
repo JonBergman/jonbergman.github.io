@@ -4,7 +4,7 @@ title: FlatWorld
 permalink: /portfolio/flatworld/
 thumbnail: FlatWorld-Thumbnail.png
 categories: [Designer, Engineer, A11y, Product Manager]
-year: 2018—2022
+year: 2019
 excerpt: "Designing a platform for delivering affordable, high quality textbooks."
 ---
 
