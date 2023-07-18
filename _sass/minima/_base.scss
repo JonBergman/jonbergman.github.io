@@ -208,8 +208,8 @@ pre {
   @extend %clearfix;
 
   @include media-query($on-laptop) {
-    padding-right: $spacing-unit / 2;
-    padding-left: $spacing-unit / 2;
+    padding-right: $spacing-unit;
+    padding-left: $spacing-unit;
   }
 }
 
@@ -225,6 +225,10 @@ pre {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: $spacing-unit;
+
+  @include media-query ($on-palm) {
+    grid-template-columns: 1fr;
+  }
 }
 
 
