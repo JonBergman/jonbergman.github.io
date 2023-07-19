@@ -4,4 +4,5 @@
 
 layout: home
 title: Home
+image: /assets/images/home.png
 ---
