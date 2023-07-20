@@ -12,8 +12,6 @@ excerpt: "Designing the first skills development platform for sales professional
 
 As the Product Design Lead at <a href="https://www.salesimpact.io/" target="_blank">Sales Impact Academy (SIA)</a>, I undertook the challenge of redesigning and enhancing the sales training platform to deliver an unparalleled learning experience for sales professionals. The project aimed to create a comprehensive and user-friendly platform with features such as course discovery, user tasks, live coaching, and asynchronous coach feedback. Leveraging Lean UX principles, I led a cross-functional team through a series of quick iterations to achieve exceptional results.
 
-<figure><img src="/assets/images/sia/Mobile.png"></figure>
-
 ## The Problem 
 
 The previous platform at SIA lacked a cohesive user experience and struggled to keep pace with the evolving needs of the target customer. Users faced difficulties in discovering relevant courses, lacked personalized learning paths, and had limited access to coaching and feedback. The platform's outdated design and usability issues contributed to low user engagement and limited success.
