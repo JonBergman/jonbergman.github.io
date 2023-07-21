@@ -74,6 +74,26 @@
  .site-header {
   // Positioning context for the mobile navigation icon
   position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: $spacing-unit 0;
+  width: 100%;
+  max-width: 50rem;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: $spacing-unit * 2;
+  padding-left: $spacing-unit * 2;
+
+  @include media-query($on-laptop) {
+    flex-direction: column;
+    padding-right: $spacing-unit;
+    padding-left: $spacing-unit;
+
+    .page-link {
+      font-size: .75rem;
+    };
+  }
 }
 
 .site-nav {
@@ -88,9 +108,14 @@
     font-weight: 500;
     margin-right: $spacing-unit * 2;
     transition: all 200ms ease-in-out;
+    align-items: end;
 
     &:hover {
       opacity: .6;
+    }
+
+    &:last-child{
+      margin: 0;
     }
   }
 }
@@ -208,7 +233,7 @@
   @include relative-font-size(2.625);
   font-weight: 600;
   max-width: 700px;
-  padding: 6vw 0;
+  padding: $spacing-unit * 2 0;
   margin: 0 0 $spacing-unit;
 
   @include media-query($on-laptop) {
