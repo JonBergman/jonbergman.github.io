@@ -3,8 +3,8 @@ layout: back
 ---
 <article class="project h-entry" itemscope itemtype="http://schema.org/BlogPosting">
   <header class="project-header">
-    <h1 class="project-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
-    <div class="project-meta grid">
+    <h1 class="project-title p-name" itemprop="name headline">{{ page.excerpt | escape }}</h1>
+    <!-- <div class="project-meta grid">
       <div>
         <ul class="categories">
           {% for category in page.categories %}
@@ -17,7 +17,7 @@ layout: back
           {{ page.excerpt }}
         </p>
       </div>
-    <div>
+    <div> -->
   </header>
 
   <figure><img src="/assets/images/{{ page.thumbnail }}" width="100%"/></figure>

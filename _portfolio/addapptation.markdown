@@ -5,7 +5,7 @@ permalink: /portfolio/addapptation/
 thumbnail: Addapptation-Thumbnail.png
 categories: [Designer, Engineer]
 year: 2018
-excerpt: "Building a micro-application platform to improve the user experience of enterprise software"
+excerpt: "Building a micro-application platform to improve the user experience of enterprise software."
 ---
 
 ## Overview

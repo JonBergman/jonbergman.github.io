@@ -5,7 +5,7 @@ permalink: /portfolio/learning-objects/
 thumbnail: LearningObjects-Thumbnail.png
 categories: [Product Designer, Engineer]
 year: 2015
-excerpt: "Competency based learning platform for higher education."
+excerpt: "Building a competency based learning platform for higher education."
 ---
 
 ## Overview

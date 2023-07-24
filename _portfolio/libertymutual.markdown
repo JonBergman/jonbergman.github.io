@@ -5,7 +5,7 @@ permalink: /portfolio/libertymutual/
 thumbnail: Liberty-Thumbnail.png
 categories: [Engineering]
 year: 2011
-excerpt: "Mobile application for one of the world's largest insurance companies."
+excerpt: "Building a mobile application for one of the world's largest insurance companies."
 ---
 
 ## Overview

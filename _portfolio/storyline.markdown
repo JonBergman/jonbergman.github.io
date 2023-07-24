@@ -5,7 +5,7 @@ permalink: /portfolio/storyline/
 thumbnail: Storyline-Thumbnail.png
 categories: [Designer, Engineer, Product Manager]
 year: 2017
-excerpt: "Connecting companies in meaningful ways with the people that matter most in their business."
+excerpt: "Turning a manual process into a streamlined digital experience."
 ---
 
 ## Overview
