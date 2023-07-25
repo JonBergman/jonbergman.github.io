@@ -121,7 +121,33 @@ li {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
+  font-family: $secondary-font-family;
+  font-weight: 300;
   line-height: 1.4;
+}
+
+h1 {
+  @include relative-font-size(2);
+}
+
+h2 {
+  @include relative-font-size(1.75);
+}
+
+h3 {
+  @include relative-font-size(1.5);
+}
+
+h4 {
+  @include relative-font-size(1.25);
+}
+
+h5 {
+  @include relative-font-size(1);
+}
+
+h6 {
+  @include relative-font-size(.75);
 }
 
 

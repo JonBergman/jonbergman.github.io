@@ -22,7 +22,7 @@
                   {{ exp.excerpt}}
                 </div>
               </div>
-              <figure><img src="/assets/images/{{ exp.thumbnail }}"/></figure>
+              <figure><img src="/assets/images/{{ exp.thumbnail }}" alt="{{ exp.title | escape }} thumbnail"/></figure>
             </a>
           </li>
         {%- endfor -%}
