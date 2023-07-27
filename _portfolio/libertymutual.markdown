@@ -18,13 +18,13 @@ The majority of my time was dedicated to developing features for the Liberty Mut
 
 The feature I am most proud of building at Liberty was the Wayfinder. This feature provided the customer with context on their claims process and also provided navigation between the various stages.
 
-<figure><img src="/assets/images/libertymutual/stepper.png"></figure>
+<figure><img src="/assets/images/libertymutual/stepper.png" alt="Mobile application forms steps"></figure>
 
 ### Claims
 
 We also build the entire process for submitting claims through the mobile application. This enabled our customers to take pictures and file incident claims from any location.
 
-<figure><img src="/assets/images/libertymutual/claims.png"></figure>
+<figure><img src="/assets/images/libertymutual/Claims.png" alt="Claims mobile application"></figure>
 
 ## Learning
 

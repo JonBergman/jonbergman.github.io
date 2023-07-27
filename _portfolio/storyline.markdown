@@ -26,25 +26,25 @@ I conducted extensive research, including stakeholder interviews with the Storyl
 
 To enhance quote management, I introduced a tagging system that enabled participants' quotes to be categorized based on themes or topics. Users could easily apply tags to quotes, simplifying the process of searching and organizing testimonials. fields to accommodate varying data requirements.
 
-<figure><img src="/assets/images/storyline/2.png" width="100%"/></figure>
+<figure><img src="/assets/images/storyline/2.png" width="100%" alt="Quotes"/></figure>
 
 ## Quote Card Printing
 
 To fulfill the marketing team's needs, I integrated a feature allowing the generation and printing of quote cards. Users could customize the design and layout, resulting in professional-looking quote cards for promotional materials.
 
-<figure><img src="/assets/images/storyline/3.png" width="100%"/></figure>
+<figure><img src="/assets/images/storyline/3.png" width="100%" alt="Quote cards"/></figure>
 
 ## Diagraming
 
 In order to mimic the customer deliverables we created a digital diagram to map the quotes using the Storyline method aligning facts with feelings.
 
-<figure><img src="/assets/images/storyline/4.png" width="100%"/></figure>
+<figure><img src="/assets/images/storyline/4.png" width="100%" alt="Diagram"/></figure>
 
 ## Responsive Design
 
 Recognizing the importance of accessibility across devices, I meticulously designed the platform to be responsive. Employing responsive web design techniques, the application provided an optimal user experience, whether accessed from desktops, tablets, or mobile devices.
 
-<figure><img src="/assets/images/storyline/1.png" width="100%"/></figure>
+<figure><img src="/assets/images/storyline/1.png" width="100%" alt="Responsive design"/></figure>
 
 ## Testing
 
