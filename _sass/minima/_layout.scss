@@ -7,7 +7,7 @@
   @include relative-font-size(2);
   line-height: 1.5;
   font-weight: 300;
-  padding: 6vw 0;
+  padding: 4vw 0;
   width: 100%;
   margin: 0;
 
@@ -22,14 +22,13 @@
   justify-content: center;
   align-items: center;
   top: 0;right:0;left: 0; bottom: 0;
-  background-color: $background-color;
+  background-color: rgba(250,250,250,.99);
   height: 0%;
   width: 100%;
   overflow: hidden;
   transition: all 100ms ease-in-out;
   z-index: 1;
   width: 100%;
-  max-width: 50rem;
   margin-right: auto;
   margin-left: auto;
   padding-right: $spacing-unit * 2;
@@ -45,6 +44,7 @@
   }
 
   .close {
+    padding-top: .5rem;
     position: absolute;
     top: $spacing-unit;
     left: $spacing-unit * 2;
@@ -57,9 +57,7 @@
 
 .experience-list {
   display: grid;
-  column-gap: $spacing-unit * 2;
-  row-gap: $spacing-unit * 2;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   list-style: none;
   margin: 0;
 
@@ -71,7 +69,6 @@
 .experience-item {
   position: relative;
   overflow: hidden;
-  border-radius: .25rem;
 
   &:hover {
     .experience-info {
@@ -86,7 +83,7 @@
   right: 0;
   bottom: 0;
   left: 0;
-  background: rgba(0,0,0,.6);
+  background: $brand-color;
   color: #fff;
   padding: $spacing-unit * 2;
   opacity: 0;

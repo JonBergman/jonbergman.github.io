@@ -11,23 +11,23 @@
         <!-- <img src="/assets/images/Mark.svg" height="80px" class="mark"/> -->
         <h1 class="brand animate__animated animate__fadeIn"><strong>Jonathan Bergman</strong> is a results driven product design leader passionate about scaling human-centered and accessible user experiences.</h1>
       </div>
-      <ul class="experience-list">
-        {% assign sorted = site.portfolio | sort: 'year' | reverse  %}
-        {%- for exp in sorted -%}
-          <li class="experience-item">
-            <a class="experience-link" href="{{ exp.url | relative_url }}">
-              <div class="experience-info">
-                <h2 class="experience-title">{{ exp.title | escape }}</h2>
-                <div class="experience-excerpt">
-                  {{ exp.excerpt}}
-                </div>
-              </div>
-              <figure><img src="/assets/images/{{ exp.thumbnail }}" alt="{{ exp.title | escape }} thumbnail"/></figure>
-            </a>
-          </li>
-        {%- endfor -%}
-      </ul>
     </div>
+    <ul class="experience-list">
+      {% assign sorted = site.portfolio | sort: 'year' | reverse  %}
+      {%- for exp in sorted -%}
+        <li class="experience-item">
+          <a class="experience-link" href="{{ exp.url | relative_url }}">
+            <div class="experience-info">
+              <h2 class="experience-title">{{ exp.title | escape }}</h2>
+              <div class="experience-excerpt">
+                {{ exp.excerpt}}
+              </div>
+            </div>
+            <figure><img src="/assets/images/{{ exp.thumbnail }}" alt="{{ exp.title | escape }} thumbnail"/></figure>
+          </a>
+        </li>
+      {%- endfor -%}
+    </ul>
     {%- include footer.html -%}
   </body>
 </html>
