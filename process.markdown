@@ -6,6 +6,10 @@ layout: page
 title: Process
 ---
 
+
+<figure><img src="/assets/images/Process.png" alt="Ideate, build, launch, learn"></figure>
+
+
 My personal design process is deeply rooted in the principles of <a href="https://scaledagileframework.com/lean-ux/">Lean UX</a>, emphasizing quick iterations of *ideation*, *building*, *launching*, and *learning*. By adopting this approach, I aim to create user-centered and effective products that continuously evolve based on user feedback and data-driven insights.
 
 ## Empathize and Define
