@@ -20,31 +20,36 @@ Before the development of the platform, Storyline LLC faced significant challeng
 
 ## Research
 
-I conducted extensive research, including stakeholder interviews with the Storyline team, and discussions with the CEO. Understanding the pain points and requirements of various team members during their current process helped me establish a clear roadmap for the platform's development.
+I conducted extensive research, including stakeholder interviews with the Storyline team, and discussions with the CEO. Understanding the pain points and requirements of various team members during their current process helped me establish a clear roadmap for the platform's development. At the heart of the process was **quote cards**, a physical representation of a quote from a customer participant in a study. These quotes are tagged with **demographics**, and given a type of **fact** or **feeling**. These quotes are printed and categorized and displayed on large storyboards to represent a holistic story. Hence the name Storyline.
 
-## Managing Quotes
+<figure><img src="/assets/images/storyline/cards.jpeg" alt="Storyline printed quote cards" width="100%"/></figure>
+
+## Design
+
+In order to best communicate and work through flows with the Storyline staff I decided that the best fidelity would be a mobile prototype. This choice was made by empathising with the people on the team and understanding that this would be right level of *abstraction* to facilitate these conversations. This also provided a way for me to easily test the direction of the design and the usability of the application simultaneously. 
+
+<figure><img src="/assets/images/storyline/1.png" width="100%" alt="Responsive design"/></figure>
+
+Once the workflows and design direction was resonating with the staff we moved into building the application responsively. Accessibility of the platform was going to be essential no matter what screen size the team was on.
+
+
+### Managing Quotes
 
 To enhance quote management, I introduced a tagging system that enabled participants' quotes to be categorized based on themes or topics. Users could easily apply tags to quotes, simplifying the process of searching and organizing testimonials. fields to accommodate varying data requirements.
 
 <figure><img src="/assets/images/storyline/2.png" width="100%" alt="Quotes"/></figure>
 
-## Quote Card Printing
+### Quote Card Printing
 
 To fulfill the marketing team's needs, I integrated a feature allowing the generation and printing of quote cards. Users could customize the design and layout, resulting in professional-looking quote cards for promotional materials.
 
 <figure><img src="/assets/images/storyline/3.png" width="100%" alt="Quote cards"/></figure>
 
-## Diagraming
+### Diagraming
 
 In order to mimic the customer deliverables we created a digital diagram to map the quotes using the Storyline method aligning facts with feelings.
 
 <figure><img src="/assets/images/storyline/4.png" width="100%" alt="Diagram"/></figure>
-
-## Responsive Design
-
-Recognizing the importance of accessibility across devices, I meticulously designed the platform to be responsive. Employing responsive web design techniques, the application provided an optimal user experience, whether accessed from desktops, tablets, or mobile devices.
-
-<figure><img src="/assets/images/storyline/1.png" width="100%" alt="Responsive design"/></figure>
 
 ## Testing
 

@@ -16,11 +16,15 @@ As the Product Design Lead at <a href="https://www.salesimpact.io/" target="_bla
 
 ## The Problem 
 
-The previous platform at SIA lacked a cohesive user experience and struggled to keep pace with the evolving needs of the target customer. Users faced difficulties in discovering relevant courses, lacked personalized learning paths, and had limited access to coaching and feedback. The platform's outdated design and usability issues contributed to low user engagement and limited success.
+The previous platform at SIA lacked a cohesive user experience and struggled to keep pace with the evolving needs of the target customer. Users faced difficulties in discovering relevant courses, lacked personalized learning paths, and had limited access to coaching and feedback. The platform's outdated design and usability issues contributed to low user engagement and limited success. We saw high churn and sales drop dramatically after the bubble burst in 2022 and we quickly realized our product was a nice-to-have rather than a must have.
+
+## Solution
+
+To address the challenges faced by SIA with their existing sales training catalog, we proposed a comprehensive redevelopment of our platform and learning experience that focuses on concise 30-minute sessions on specific skills. The new platform will incorporate personalized learning paths, interactive live coaching, and efficient synchronous and asynchronous coach feedback to drive engagement and attendance.
 
 ## User Research
 
-We leverageed our customers as well as internal GTM team members to develop personas and ideal customer profiles (ICP) we would target. We leveraged surveys, focus groups, and multiple design thinking sessions such as <a href="http://www.gv.com/sprint/" target="_blank">design sprints</a> to brainstorms potential solutions to for our customers. This helped me gain insights into their pain points, expectations, and desired features. I also analyzed user behavior data from the existing platform to identify usage patterns and areas for improvement.
+We leveraged our existing customers as well as internal GTM team members to develop personas and ideal customer profiles (ICP) we would target. We utilized surveys, focus groups, and multiple design thinking sessions such as <a href="http://www.gv.com/sprint/" target="_blank">design sprints</a> to brainstorms potential solutions to for our customers. This helped me gain insights into the customer's pain points, expectations, and desired features. I also analyzed user behavior data from the existing platform to identify usage patterns and areas for improvement in the user experience.
 
 <figure><img src="/assets/images/sia/design thinking.jpeg" alt="Design thinking"></figure>
 
@@ -31,6 +35,8 @@ We leverageed our customers as well as internal GTM team members to develop pers
 Based on user feedback and industry best practices, I implemented a robust course discovery system. Users could now easily filter and search for relevant courses based on their role, live sessions, and specific topics based on text.
 
 <figure><img src="/assets/images/sia/Courses.png" alt="Course discovery"></figure>
+
+<figure><img src="/assets/images/sia/CourseDetails.png" alt="Course discovery"></figure>
 
 ## User Tasks
 
@@ -44,6 +50,11 @@ To enhance user engagement and progression, I introduced a personalized task man
 
 To facilitate interactive learning, I integrated live coaching sessions into the platform. Sales professionals could now join virtual coaching sessions with industry experts, participating in role-playing scenarios and receiving real-time feedback.
 
+<figure><img src="/assets/images/sia/In Progress.png" alt="My live practice"></figure>
+
+Managers could also discover upcoming sessions from a dedicated page and enroll their team.
+
+
 <figure><img src="/assets/images/sia/Live Coaching.png" alt="Live coaching"></figure>
 
 ## Async Coach Feedback
@@ -54,7 +65,7 @@ Recognizing the need for continuous improvement, I introduced asynchronous coach
 
 ## Unified Design System
 
-I established a design system in Figma to ensure a consistent user interface and experience across all platform features. This system enabled the design and development teams to work efficiently, promoting design scalability.
+I established a design system in Figma to ensure a consistent user interface and experience across all platform features. This system enabled the design and development teams to work efficiently, promoting design scalability. We used <a href="https://chakra-ui.com/" target="_blank">ChakraUI</a> as the front-end framework and themed the components to match our existing brand.
 
 <figure><img src="/assets/images/sia/Component Library.png" alt="Design system"></figure>
 
