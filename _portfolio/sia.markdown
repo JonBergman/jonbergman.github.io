@@ -16,7 +16,7 @@ As the Product Design Lead at <a href="https://www.salesimpact.io/" target="_bla
 
 The previous platform at SIA lacked a cohesive user experience and struggled to keep pace with the evolving needs of the target customer. Users faced difficulties in discovering relevant courses, lacked personalized learning paths, and had limited access to coaching and feedback. The platform's outdated design and usability issues contributed to low user engagement and limited success. We saw high churn and sales drop dramatically after the bubble burst in 2022 and we quickly realized our product was a nice-to-have rather than a must have.
 
-<figure><img src="/assets/images/sia/SIA_catalog.png" alt="Original "></figure>
+<figure><img src="/assets/images/sia/SIA_catalog.png" alt="Original sia catalog"></figure>
 
 ## Solution
 
