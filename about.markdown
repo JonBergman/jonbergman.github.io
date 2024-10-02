@@ -8,8 +8,21 @@ title: About
 
 <figure><img src="/assets/images/family_photo.jpg" alt="My family"/></figure>
 
-Jon is a design leader and technologist from New Hampshire with over a decade of experience building human-centered and accessible products and design systems for a wide range of enterprise and start-up organizations. He values empathy, transparency, accountability, and leading by example.
-      
-Outside of work you can find him spending time with his family or exploring <a href="https://soundcloud.com/jon-bergman" target="_blank">music production</a>.
+I am a creative technologist from New Hampshire with over a decade of experience in building human-centered and accessible products with systems. My work spans a variety of enterprise and startup organizations, where I emphasize empathy, transparency, accountability, and leading by example.
 
-Get in touch with <a href="https://twitter.com/jmbergman" target="_blank">twitter</a>, <a href="https://www.linkedin.com/in/jonmbergman/" target="_blank">linkedin</a>, or <a href="mailto:{{ site.email }}?subject=Hello!">email</a>.
+### Professional Focus
+
+- **Human-Centered Design:** Crafting intuitive and accessible products.
+- **Design Systems:** Designing and developing design systems that scale.
+- **AI:** Leveraging new innovations in compute to scale design process and solve human problems
+- **Leadership:** Fostering collaborative and innovative teams
+
+### Portfolio
+
+Visit my [website](https://jonbergman.github.io) to learn more about my work and experience.
+
+### Connect
+
+- [Email](mailto:jonmb08@gmail.com?Subject=Hello)
+- [Twitter](https://twitter.com/jonbergman)
+- [LinkedIn](https://www.linkedin.com/in/jonbergman)

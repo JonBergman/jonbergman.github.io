@@ -1,9 +1,8 @@
-.mark {
-  margin-bottom: $spacing-unit;
+.site-header {
+  padding-top: $spacing-unit;
 }
 
 .brand {
-  font-family: $secondary-font-family;
   @include relative-font-size(2);
   line-height: 1.5;
   font-weight: 300;
@@ -18,48 +17,15 @@
 
 .drawer {
   display: flex;
-  position: fixed;
-  justify-content: center;
-  align-items: center;
-  top: 0;right:0;left: 0; bottom: 0;
-  background-color: rgba(250,250,250,.99);
-  height: 0%;
-  width: 100%;
-  overflow: hidden;
-  transition: all 100ms ease-in-out;
-  z-index: 1;
-  width: 100%;
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: $spacing-unit * 2;
-  padding-left: $spacing-unit * 2;
-
-  @include media-query($on-laptop) {
-    padding-right: $spacing-unit;
-    padding-left: $spacing-unit;
-  }
-
-  &.open {
-    height: 100%;
-  }
-
-  .close {
-    padding-top: .5rem;
-    position: absolute;
-    top: $spacing-unit;
-    left: $spacing-unit * 2;
-
-    @include media-query($on-laptop) {
-      left: $spacing-unit;
-    }
-  }
 }
 
 .experience-list {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   list-style: none;
   margin: 0;
+  gap: calc($spacing-unit * 2);
+
 
   @include media-query($on-laptop) {
     grid-template-columns: 1fr 1fr;
@@ -70,28 +36,15 @@
   }
 }
 
-.experience-item {
-  position: relative;
-  overflow: hidden;
-
-  &:hover {
-    .experience-info {
-      opacity: .8;
-    }
-  }
+.experience-title {
+  @include relative-font-size(1.25);
+  margin-bottom: $spacing-unit;
 }
 
-.experience-info {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background: $text-color;
-  color: #fff;
-  padding: $spacing-unit * 2;
-  opacity: 0;
-  transition: all 200ms ease-in-out;
+.experience-item {
+  background-color: #fff;
+  position: relative;
+  overflow: hidden;
 }
 
 .experience-link {
@@ -99,8 +52,11 @@
 
   figure {
     margin: 0;
-    z-index: -1;
   }
+}
+
+.experience-info {
+  padding: calc($spacing-unit * 2);
 }
 
 .categories {
@@ -112,47 +68,16 @@
 /**
  * Site header
  */
- .site-header {
-  // Positioning context for the mobile navigation icon
-  position: relative;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: $spacing-unit 0;
-  width: 100%;
-  max-width: 50rem;
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: $spacing-unit * 2;
-  padding-left: $spacing-unit * 2;
-
-  @include media-query($on-laptop) {
-    padding-right: $spacing-unit;
-    padding-left: $spacing-unit;
-  }
-}
 
 .site-nav {
   display: flex;
-  flex-direction: column;
-  
+  justify-content: center;
+
   .page-link {
-    line-height: $base-line-height;
     display: block;
-    padding: $spacing-unit/2 0;
+    padding: $spacing-unit;
     text-decoration: none;
     font-weight: 500;
-    transition: all 200ms ease-in-out;
-    align-items: end;
-    text-align: center;
-
-    &:hover {
-      opacity: .6;
-    }
-
-    &:last-child{
-      margin: 0;
-    }
   }
 }
 
@@ -162,6 +87,7 @@
  */
 .site-footer {
   padding: $spacing-unit * 4 0;
+  text-align: center;
 }
 
 .contact-list,
@@ -236,6 +162,27 @@
  * Page content
  */
 
+ .post-header {
+  margin-bottom: $spacing-unit * 2;
+  text-align: center;
+  padding-bottom: 6vw;
+ }
+
+ .post-title {
+  @include relative-font-size(5);
+  line-height: 1.5;
+  font-weight: 500;
+  padding: 6vw 0 0;
+  width: 100%;
+  margin: 0 0 $spacing-unit;
+  text-align: center;
+ }
+
+ .post-meta {
+  font-size: $base-font-size;
+  color: $grey-color-dark;
+}
+
 .post-list-heading {
   @include relative-font-size(1.75);
 }
@@ -249,11 +196,6 @@
   }
 }
 
-.post-meta {
-  font-size: $small-font-size;
-  color: $grey-color;
-}
-
 .post-link {
   display: block;
 }
@@ -263,22 +205,23 @@
 /**
  * Posts
  */
-.post-title,
 .page-title,
 .project-title {
-  font-family: $secondary-font-family;
-  @include relative-font-size(2);
+  @include relative-font-size(5);
   line-height: 1.5;
-  font-weight: 300;
+  font-weight: 500;
   padding: 6vw 0;
   width: 100%;
   margin: 0;
+  text-align: center;
 }
 
 
 
 .post-content,
 .page-content {
+  background-color: #fff;
+  padding: $spacing-unit * 6;
   margin-bottom: $spacing-unit;
 
   img {
@@ -307,7 +250,8 @@
 }
 
 .project-content {
-  padding: $spacing-unit * 2 0;
+  background-color: #fff;
+  padding: $spacing-unit * 6;
 }
 
 .iframe__container {

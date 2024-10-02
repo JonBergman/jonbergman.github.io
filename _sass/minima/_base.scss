@@ -120,8 +120,6 @@ li {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-  font-family: $secondary-font-family;
-  font-weight: 300;
   line-height: 1.4;
 }
 
@@ -225,7 +223,7 @@ pre {
  */
 .wrapper {
   width: 100%;
-  max-width: 50rem;
+  max-width: 60rem;
   margin-right: auto;
   margin-left: auto;
   padding-right: $spacing-unit * 2;

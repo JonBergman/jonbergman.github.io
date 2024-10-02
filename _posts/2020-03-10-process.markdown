@@ -1,9 +1,7 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: page
-title: Process
+layout: post
+title:  "Process"
+date:   2020-03-10 12:00:00 -0400
 ---
 
 My personal design process is deeply rooted in the principles of <a href="https://scaledagileframework.com/lean-ux/">Lean UX</a>, emphasizing quick iterations of *ideation*, *building*, *launching*, and *learning*. By adopting this approach, I aim to create user-centered and effective products that continuously evolve based on user feedback and data-driven insights.
