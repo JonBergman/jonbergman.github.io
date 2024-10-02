@@ -24,7 +24,7 @@
   grid-template-columns: 1fr 1fr;
   list-style: none;
   margin: 0;
-  gap: calc($spacing-unit * 2);
+  gap: $spacing-unit * 2;
 
 
   @include media-query($on-laptop) {
@@ -56,7 +56,7 @@
 }
 
 .experience-info {
-  padding: calc($spacing-unit * 2);
+  padding: $spacing-unit * 2;
 }
 
 .categories {
