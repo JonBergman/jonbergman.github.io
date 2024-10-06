@@ -3,7 +3,7 @@
 
   {%- include head.html -%}
 
-  <body>
+  <body class="{% if page.body_class %}{{ page.body_class }}{% endif %}">
     {%- include header.html -%}
     <main aria-label="Content">
       <div class="wrapper">
